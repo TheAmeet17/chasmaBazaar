@@ -8,15 +8,15 @@ export const loginAdmin = async (req: Request, res: Response) => {
 
 }
 
-export const addCar = async (req: Request, res: Response) => {
+export const addGlasses = async (req: Request, res: Response) => {
 
 }
 
-export const updateCar = async (req: Request, res: Response) => {
+export const updateGlasses = async (req: Request, res: Response) => {
 
 
 }
 
-export const deleteCar = async (req: Request, res: Response) => {
+export const deleteGlasses = async (req: Request, res: Response) => {
 
 }

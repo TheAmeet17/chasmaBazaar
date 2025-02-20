@@ -8,14 +8,14 @@ export const loginUser = async (req: Request, res: Response) => {
 
 }
 
-export const getAllCars = async (req: Request, res: Response) => {
+export const getAllGlasses = async (req: Request, res: Response) => {
 
 }
 
-export const purchaseCars = async (req: Request, res: Response) => {
+export const purchaseGlasses = async (req: Request, res: Response) => {
 
 }
 
-export const getPurchasedCars = async (req: Request, res: Response) => {
+export const getPurchasedGlasses = async (req: Request, res: Response) => {
 
 }

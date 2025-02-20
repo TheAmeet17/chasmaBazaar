@@ -1,14 +1,14 @@
 import { create } from 'domain';
 import Router from 'express';
-import { createCar, editCar, getCar, getCarById, removeCar } from '../controller/carController';
+import { createGlasses, editGlasses, getGlasses, getGlassesById, removeGlasses } from '../controller/glassController';
 const router = Router();
 
 
-router.get('/',getCar);
-router.get('/:id',getCarById);
-router.post('/',createCar);
-router.put('/:id',editCar);
-router.delete('/:id',removeCar);
+router.get('/',getGlasses);
+router.get('/:id',getGlassesById);
+router.post('/',createGlasses);
+router.put('/:id',editGlasses);
+router.delete('/:id',removeGlasses);
 
 
 export default router;
